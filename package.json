@@ -1,0 +1,14 @@
+{
+  "name": "leva-example",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.22.2"
+  },
+  "dependencies": {
+    "create-react-class": "^15.7.0",
+    "leva": "0.9.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

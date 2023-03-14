@@ -1,0 +1,15 @@
+; use deps.edn with the :shadow alias
+{:deps {:aliases [:shadow]}
+ :builds
+ {:app
+  {:target     :browser
+   :output-dir "public/js"
+   :asset-path "js"
+   :modules    {:main {:entries [core]}}
+   :devtools   {:preloads     [hashp.core]
+                :repl-init-ns core
+                :repl-pprint  true
+                :before-load  core/stop
+                :after-load   core/start
+                :http-root    "public"
+                :http-port    8020}}}}
