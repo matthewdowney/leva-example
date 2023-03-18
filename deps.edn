@@ -3,8 +3,8 @@
  {org.clojure/clojure       {:mvn/version "1.11.1"}
   org.clojure/clojurescript {:mvn/version "1.11.60"}
   org.clojure/core.async    {:mvn/version "1.6.673"}
-  reagent/reagent           {:mvn/version "1.2.0"
-                             :exclusions  [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server]}
+  reagent/reagent           {:mvn/version "1.1.1"
+                             #_#_:exclusions  [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server]}
   org.mentat/leva.cljs      {:mvn/version "0.2.2"}}
 
  :aliases
